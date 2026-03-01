@@ -10,4 +10,4 @@ print(df.head())
 
 
 df.to_parquet(f'output_{month}.parquet')
-print("Hello Pipeline ,month = {month}")
+print(f"Hello Pipeline from month = {month}")
